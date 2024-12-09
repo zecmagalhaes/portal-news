@@ -114,6 +114,11 @@ grid-area: featured;
 #ai {
   grid-area: ai;
 
+  &>div{
+    height: 100%;
+  }
+  
+
   img {
     width: 176px;
     aspect-ratio: 1/1;
